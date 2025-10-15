@@ -23,20 +23,22 @@ Each detected gesture triggers a corresponding monkey emotion image display.
 ## Setup Instructions
 
 1. **Clone the repository**
+   ```powershell
    git clone https://github.com/abhishek-mandal01/monkey-meme-mediapipe-project.git
+   ```
 
-2. **Create and activate virtual environment**
+3. **Create and activate virtual environment**
    ```powershell
    python -m venv venv
    .\venv\Scripts\Activate  # On Windows
    ```
 
-3. **Install required packages**
+4. **Install required packages**
    ```powershell
    pip install mediapipe opencv-python numpy
    ```
 
-4. **Prepare image assets**
+5. **Prepare image assets**
    Ensure you have the following images in your project root:
    - `serious-monkey.png`
    - `thumbsup-monkey.png`
